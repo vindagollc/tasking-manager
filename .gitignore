@@ -27,6 +27,7 @@ logs/
 
 #python
 venv/
+.venv/
 *pyc
 .pdm.toml
 .pdm-python
