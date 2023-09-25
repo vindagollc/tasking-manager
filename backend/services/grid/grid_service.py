@@ -197,6 +197,8 @@ class GridService:
         """
         rings = []
         for feature in features:
+            if feature.geometry.is_valid == False:
+                feature.geometry = feature.geometry.buffer(0)
             if isinstance(feature.geometry, MultiPolygon):
                 rings = rings + [geom for geom in feature.geometry.geoms]
             else:

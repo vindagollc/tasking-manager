@@ -6,7 +6,7 @@ import { FormattedMessage } from 'react-intl';
 
 import messages from './messages';
 import { ORG_URL, ORG_NAME, ORG_LOGO, SERVICE_DESK } from '../../config';
-import logo from '../../assets/img/main-logo.svg';
+import logo from '../../assets/img/gauss-logo.png';
 import { ExternalLinkIcon } from '../svgIcons';
 import { Dropdown } from '../dropdown';
 import { LocaleSelector } from '../localeSelect';
@@ -123,7 +123,7 @@ export const Header = () => {
               currentTarget.src = logo;
             }}
           />
-          <span className="barlow-condensed f3 fw6 ml2 blue-dark nowrap">Tasking Manager</span>
+          <span className="barlow-condensed f2 fw6 ml2 red nowrap"> Tasking Manager</span>
         </Link>
         <HorizontalScroll
           className={'dn dib-l ml5-l mr4-l pl6-xl'}

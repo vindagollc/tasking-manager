@@ -55,3 +55,4 @@ venv_aws/
 # Backend coverage generated files
 htmlcov/
 .coverage
+.venv

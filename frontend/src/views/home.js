@@ -9,12 +9,8 @@ import { Testimonials } from '../components/homepage/testimonials';
 export function Home() {
   return (
     <div className="pull-center">
-      <Jumbotron />
       <StatsSection />
       <MappingFlow />
-      <WhoIsMapping />
-      <Testimonials />
-      <SecondaryJumbotron />
     </div>
   );
 }
